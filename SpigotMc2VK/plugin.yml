@@ -1,0 +1,68 @@
+name: SpigotMc2VK
+main: com.kolovanja.Spigot2VKPlugin.Spigot2VKPlugin
+version: 0.6.8
+api-version: 1.16
+author: rhiskey
+website: github.com/rhiskey/
+prefix: MC2VK
+depend: [AuthMe]
+softdepend: [AuthMe, PermissionsEx, Matrix, AdvancedTeleport, Dynmap-WorldGuard, Vault]
+commands:
+  sendmsg:
+   description: Sending msg to console
+   permission: spigotmc2vk.sendmsg
+   permission-message: You do not have permission!
+   usage: /<command> sendmsg
+  reload:
+   description: Reload SpigotMc2VK
+   permission: spigotmc2vk.reload
+   permission-message: You do not have permission!
+   usage: /<command> reload
+  reloadcfg:
+   description: Reload config SpigotMc2VK
+   permission: spigotmc2vk.reloadcfg
+   permission-message: You do not have permission!
+   usage: /<command> reloadcfg
+  unload:
+   description: Disabling SpigotMc2VK
+   permission: spigotmc2vk.unload
+   permission-message: You do not have permission!
+   usage: /<command> unload
+  load:
+   description: Enabling SpigotMc2VK
+   permission: spigotmc2vk.load
+   permission-message: You do not have permission!
+   usage: /<command> load
+  link:
+   description: Linking Minecraft Account to VKontakte
+   permission: spigotmc2vk.link
+   permission-message: You do not have permission!
+   usage: /<command> link
+permissions:
+  spigotmc2vk.reload:
+   description: Allows reload plugin command
+   default: op
+  spigotmc2vk.reloadcfg:
+   description: Allows reload plugin command
+   default: op
+  spigotmc2vk.sendmsg:
+   description: Allows to send test message in console
+   default: op
+  spigotmc2vk.load:
+   description: Allows load plugin command
+   default: op
+  spigotmc2vk.unload:
+   description: Allows unload plugin command
+   default: op
+  spigotmc2vk.link:
+   description: VK Auth
+   default: true
+  spigotmc2vk.*:
+   description: Wildcard permission
+   default: op
+   children:
+     spigotmc2vk.reload: true
+     spigotmc2vk.sendmsg: true
+     spigotmc2vk.reloadcfg: true
+     spigotmc2vk.unload: true
+     spigotmc2vk.load: true

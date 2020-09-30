@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="com/kolovanja/Spigot2VKPlugin/JdaFilter.java|com/kolovanja/Spigot2VKPlugin/playerChatListener.java|com/kolovanja/Spigot2VKPlugin/LogServerAppender.java|com/kolovanja/Spigot2VKPlugin/TCPServer_Example.java|com/kolovanja/Spigot2VKPlugin/TCPClient_Example.java|com/kolovanja/Spigot2VKPlugin/ConsoleMessageQueueWorker.java|com/kolovanja/Spigot2VKPlugin/SingleCommandSender.java|ru/exsite/status/Bungee.java|com/kolovanja/vkAPI/|vkBot/java/vkmcbotGradle/userAuth.java|vkBot/java/vkmcbotGradle/userRequestHandler.java|vkBot/java/Threads/|vkBot/java/vkmcbotGradle/|vkBot/resources/|com/kolovanja/Spigot2VKPlugin/Log4JAppender.java|com/kolovanja/Spigot2VKPlugin/TCPOtpSenderThread.java" kind="src" path="src"/>
+	<classpathentry kind="lib" path="apache-log4j-2.13.0-bin/log4j-api-2.13.0.jar"/>
+	<classpathentry kind="lib" path="apache-log4j-2.13.0-bin/log4j-core-2.13.0.jar"/>
+	<classpathentry kind="lib" path="sdk-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-slf4j-impl-2.13.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-2.0.0-alpha1.jar"/>
+	<classpathentry exported="true" kind="lib" path="spigot-api-1.16.1-R0.1-SNAPSHOT-shaded.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
