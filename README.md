@@ -1,6 +1,8 @@
 ![Discord](https://img.shields.io/discord/224962875716796418) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rhiskey/SpigotMc2Vk-Public)
 ![Lines of code](https://img.shields.io/tokei/lines/github/rhiskey/SpigotMc2Vk-Public) ![GitHub](https://img.shields.io/github/license/rhiskey/SpigotMc2Vk-Public)
 ![GitHub followers](https://img.shields.io/github/followers/rhiskey?label=Follow%20me&style=social)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/rhiskey/SpigotMc2Vk-Public?style=social)
 # SpigotMc2Vk
 This plugin reads Console output from Spigot/Bukkit Minecraft Server and logs it into Console.log.
 Can execute commands remotely.
